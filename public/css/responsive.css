@@ -1,0 +1,106 @@
+
+/* Slider Responsive Start */
+@media (max-width:1030) {
+  .home .home-banner-1,
+  .home .home-banner-2{
+    background-position: 65% center;
+    min-height: 550px;
+  }
+  .home .home-banner .home-banner-text{
+    transform: translate(-80% , -50%);
+  }
+}
+/* Slider Responsive End */
+.special .countdown-container .countdown-counter li{
+  padding: 1.5rem 1rem;
+}
+
+.mobile-block {
+  display: none;
+}
+@media (max-width: 992px)
+
+ {
+  .home .home-banner .home-banner-text{
+    transform: translate(-66% , -50%);
+  }
+  .card-product-grid .img-wrap {
+    height: 200px;
+  }
+  .card-product-list {
+    margin-bottom: 20px;
+  }
+  .card-product-list .img-wrap {
+    border-bottom: 1px solid #dee2e6;
+  }
+  .special .countdown-container{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .home .home-banner-1,
+  .home .home-banner-2{
+    background-position: 50% center;
+    min-height: 450px;
+  }
+  .home .home-banner .home-banner-text{
+    text-align: center;
+    width: 100%;
+    transform: translate(-50% ,-50%);
+  }
+  .home .home-banner .home-banner-text h1{
+    font-size: 3rem;
+  }
+  .home .home-banner .home-banner-text h2{
+    font-size: 1.2rem;
+  }
+  .home .home-banner .home-banner-text .btn-danger{
+    padding: 0.5rem;
+  }
+  .home.slider-icon{
+    font-size: 2rem;
+  }
+  .section-header .logo {
+    max-height: 36px;
+    width: auto;
+  }
+  .navbar-expand .navbar-collapse {
+    flex-direction: column;
+  }
+  .gallery-wrap .thumbs-wrap {
+    margin-bottom: 1rem;
+    white-space: nowrap;
+    overflow-x: auto;
+  }
+  .mobile-order-first {
+    order: -1;
+  }
+  .mobile-order-1 {
+    order: 1;
+  }
+  .mobile-order-2 {
+    order: 2;
+  }
+  .mobile-order-3 {
+    order: 3;
+  }
+  .mobile-py {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .mobile-pb {
+    padding-bottom: 20px;
+  }
+  .mobile-pt {
+    padding-top: 20px;
+  }
+  .special{
+    padding: 4rem 0;
+  }
+  .special .countdown-container .countdown-counter li{
+    padding: 1rem;
+    width: 20%;
+  }
+}
